@@ -3,13 +3,11 @@ from paho.mqtt.client import Client as MQTTClient
 #from paho.mqtt.client import CallbackAPIVersion
 from paho.mqtt.client import MQTTv311
 import time
-import queue
 import argparse
 import json
 import sys
 import os
 import uuid
-import re
 import numpy as np
 import struct
 
