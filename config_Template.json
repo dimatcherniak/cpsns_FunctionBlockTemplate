@@ -1,0 +1,16 @@
+{
+    "MQTT_IN":
+    {
+        "TopicsToSubscribe": 
+        [
+            "cpsens/+/HBK-3070-A-10003/+/acc/raw/+"
+        ],
+        "QoS": 1
+    },
+    "MQTT_OUT": 
+    {
+        "Explanation: ModifySubtopics": "Denotes how to modify every element of the topic. Empty = do nothing. Not empty = replace by the given string",
+        "ModifySubtopics": ["","","template_output","","","",""],
+        "QoS": 1
+    }
+}
